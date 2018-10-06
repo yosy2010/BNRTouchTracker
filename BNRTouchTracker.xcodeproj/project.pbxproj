@@ -11,6 +11,9 @@
 		3B9C067E2168A10F00CD3EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9C067D2168A10F00CD3EDA /* Assets.xcassets */; };
 		3B9C06812168A10F00CD3EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9C067F2168A10F00CD3EDA /* LaunchScreen.storyboard */; };
 		3B9C06842168A10F00CD3EDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C06832168A10F00CD3EDA /* main.m */; };
+		3B9C068C2168A1A700CD3EDA /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C068B2168A1A700CD3EDA /* BNRLine.m */; };
+		3B9C068F2168A21200CD3EDA /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C068E2168A21200CD3EDA /* BNRDrawView.m */; };
+		3B9C06922168A25000CD3EDA /* BNRDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C06912168A25000CD3EDA /* BNRDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,12 @@
 		3B9C06802168A10F00CD3EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B9C06822168A10F00CD3EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B9C06832168A10F00CD3EDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B9C068A2168A1A700CD3EDA /* BNRLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRLine.h; sourceTree = "<group>"; };
+		3B9C068B2168A1A700CD3EDA /* BNRLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRLine.m; sourceTree = "<group>"; };
+		3B9C068D2168A21200CD3EDA /* BNRDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRDrawView.h; sourceTree = "<group>"; };
+		3B9C068E2168A21200CD3EDA /* BNRDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRDrawView.m; sourceTree = "<group>"; };
+		3B9C06902168A25000CD3EDA /* BNRDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRDrawViewController.h; sourceTree = "<group>"; };
+		3B9C06912168A25000CD3EDA /* BNRDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +64,12 @@
 			children = (
 				3B9C067A2168A10E00CD3EDA /* AppDelegate.h */,
 				3B9C067B2168A10E00CD3EDA /* AppDelegate.m */,
+				3B9C068A2168A1A700CD3EDA /* BNRLine.h */,
+				3B9C068B2168A1A700CD3EDA /* BNRLine.m */,
+				3B9C068D2168A21200CD3EDA /* BNRDrawView.h */,
+				3B9C068E2168A21200CD3EDA /* BNRDrawView.m */,
+				3B9C06902168A25000CD3EDA /* BNRDrawViewController.h */,
+				3B9C06912168A25000CD3EDA /* BNRDrawViewController.m */,
 				3B9C067D2168A10F00CD3EDA /* Assets.xcassets */,
 				3B9C067F2168A10F00CD3EDA /* LaunchScreen.storyboard */,
 				3B9C06822168A10F00CD3EDA /* Info.plist */,
@@ -133,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B9C06842168A10F00CD3EDA /* main.m in Sources */,
+				3B9C06922168A25000CD3EDA /* BNRDrawViewController.m in Sources */,
+				3B9C068C2168A1A700CD3EDA /* BNRLine.m in Sources */,
 				3B9C067C2168A10E00CD3EDA /* AppDelegate.m in Sources */,
+				3B9C068F2168A21200CD3EDA /* BNRDrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
